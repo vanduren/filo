@@ -1,0 +1,34 @@
+<div class="menu">
+<nav class="container-fluid">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+      <a class="nav-item nav-link" id="nav-plato-tab" data-toggle="tab" href="#nav-plato" role="tab" aria-controls="nav-profile" aria-selected="false">Plato</a>
+      <a class="nav-item nav-link" id="nav-aristoteles-tab" data-toggle="tab" href="#nav-aristoteles" role="tab" aria-controls="nav-profile" aria-selected="false">Aristoteles</a>
+      <a class="nav-item nav-link" id="nav-descartes-tab" data-toggle="tab" href="#nav-descartes" role="tab" aria-controls="nav-profile" aria-selected="false">Descartes</a>
+      <a class="nav-item nav-link" id="nav-kant-tab" data-toggle="tab" href="#nav-kant" role="tab" aria-controls="nav-profile" aria-selected="false">Kant</a>
+    </div>
+</nav>
+<div class="tab-content container" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <p class="lead">Een oefenwebsite voor het samenwerken in Github.</p>
+    </div>
+    <div class="tab-pane fade" id="nav-plato" role="tabpanel" aria-labelledby="nav-plato-tab">
+        <iframe src="plato.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    </div>
+    <div class="tab-pane fade" id="nav-aristoteles" role="tabpanel" aria-labelledby="nav-aristoteles-tab">
+        <div class="iframe-container">
+            <iframe src="aristoteles.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-descartes" role="tabpanel" aria-labelledby="nav-descartes-tab">
+        <div class="iframe-container">
+            <iframe src="descartes.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-kant" role="tabpanel" aria-labelledby="nav-kant-tab">
+        <div class="iframe-container">
+            <iframe src="kant.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+</div>
+</div>
